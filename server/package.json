@@ -1,0 +1,21 @@
+{
+  "name": "disaster-x-server",
+  "version": "1.0.0",
+  "description": "Disaster-X Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongoose": "^9.11.1",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
